@@ -9,7 +9,7 @@ namespace Turnit.GenericStore.Api.Data.Repositories
     {
         Task<Category> GetById(Guid id);
 
-        Task Save(string name);
+        Task<Guid> Save(string name);
 
         Task<IEnumerable<Category>> GetAll();
     }

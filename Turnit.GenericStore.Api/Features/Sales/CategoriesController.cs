@@ -34,7 +34,7 @@ public class CategoriesController : ApiControllerBase
     [HttpPost, Route("")]
     public async Task<IActionResult> Save(string name)
     {
-        await _categoryRepository.Save(name);
-        return Ok();
+        var categoryId = await _categoryRepository.Save(name);
+        return Ok(categoryId);
     }
 }

@@ -22,10 +22,11 @@ namespace Turnit.GenericStore.Api.Data.Repositories
             return await _session.GetAsync<Category>(id);
         }
 
-        public async Task Save(string name)
+        public async Task<Guid> Save(string name)
         {
-            await _session.SaveAsync(new Category { Name = name });
+            var categoryId = await _session.SaveAsync(new Category { Name = name });
             await _session.FlushAsync();
+            return (Guid)categoryId;
         }
 
         public async Task<IEnumerable<Category>> GetAll()
