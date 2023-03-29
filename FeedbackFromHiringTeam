@@ -1,0 +1,29 @@
+Hey,
+
+ 
+
+I hope this email finds you well. Please accept my apologies for the delay in getting back to you. I had intended to send this email earlier, but it remained in my draft folder ☹
+
+ 
+
+After a thorough evaluation of your submitted solution and feedback from our development team, we would like to share our observations with you:
+
+Positives:
+Effectively resolved the memory leak issue and provided clear visual feedback.
+Identified the typo in the mapping file.
+Implemented repository pattern to separate the query logic.
+Areas for Improvement:
+Additional restructuring, such as moving logic from controllers to handlers, could have been done.
+A few minor errors were observed, such as missing await statements.
+ 
+
+Overall, we had a positive impression of you, including your performance during the interview. However, given the limited number of openings on our team and the strong performance of other candidates on the test task, we regret to inform you that we will not be moving forward with your application.
+
+ 
+
+We sincerely appreciate your interest in our company and wish you the best of luck in your future endeavors. Thank you for your time and effort.
+
+**** Will add my opinion regarding hiring later
+**** Overall Techincal tasks are always waste of time. 
+**** Seems they have really good/interesting Product but hiring process not so mature. Added note to myself share more details soon when my blog will be ready.
+**** Task seems nice for mid level developers. Their version requirments just seems very complex. Texts must be updated. Can be used as public repo 
